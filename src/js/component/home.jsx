@@ -6,14 +6,31 @@ import MyFooter from './footer.jsx';
 
 //create your first component
 const Home = () => {
-	return [
-		<Mynavbar/>,
-		<Myjumbo/>,
-        <MyCard/>,
-        <MyFooter/>
-	]
-   
-	;
+	return (
+		<div>	<div>
+			<Mynavbar />
+		</div>
+			<div >
+				<Myjumbo />
+			</div>
+			<div className="container">
+				<div className=" align-items-center justify-content-center flex-wrap d-flex" >
+					<MyCard />
+					<MyCard />
+					<MyCard />
+					<MyCard />
+				</div>
+			</div>
+
+			<div>
+				<MyFooter />
+			</div>
+
+		</div>
+
+	)
+
+		;
 
 };
 

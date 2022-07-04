@@ -1,11 +1,11 @@
 import React from "react";
 function MyFooter(){
     return (
-        <footer className="bg-dark text-white ">
-        <div className="text-center p-3 ">
+        <footer className="p-3 bg-dark text-white ">
+        <div className="text-center ">
             
             
-            <p>Copyright &copy; Your Website Name 2022</p>
+            <small>Copyright &copy; Your Website Name 2022</small>
             
             
             
