@@ -1,7 +1,7 @@
 import React from "react";
 function MyFooter(){
     return (
-        <footer className="p-3 bg-dark text-white ">
+        <footer className=" bg-dark text-white p-4">
         <div className="text-center ">
             
             

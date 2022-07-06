@@ -14,7 +14,7 @@ const Home = () => {
 				<Myjumbo />
 			</div>
 			<div className="container">
-				<div className=" align-items-center justify-content-center flex-wrap d-flex" >
+				<div className=" align-items-center justify-content-center flex-wrap d-flex text-center" >
 					<MyCard />
 					<MyCard />
 					<MyCard />
